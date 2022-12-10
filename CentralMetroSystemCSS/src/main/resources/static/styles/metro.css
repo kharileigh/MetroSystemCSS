@@ -1,0 +1,32 @@
+
+/* 
+    Created on : 10 Dec 2022, 12:28:25
+    Author     : kharileigh
+*/
+
+
+/* background : BLACK */
+body {
+    
+    color: #000000;
+    
+}
+
+/* headings : VIVID ORANGE */
+h1 {
+    
+    color: #ff6900;
+}
+
+/* table headings : YELLOW */
+th {
+    
+    color: #fcb900;
+   
+}
+
+/* table data : GREY*/
+table {
+    
+    color : #abb8c3;
+}
