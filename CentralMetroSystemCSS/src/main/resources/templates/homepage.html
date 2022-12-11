@@ -17,19 +17,37 @@
 <!-- NAV -->
 <nav class="navbar">
     <div class="container-fluid">
+        <div class="button-container">
         <a class="navbar-image" href="#">
             <img alt="MetroLogo" th:src="@{/images/metro.gif}">
         </a>
+        </div>
         <h1> Central Metro System </h1>
     </div>
 </nav>
+  
+<br></br>
     
+<div class="button-container">
     
-<div>
-    
- 
+    <button type="button" class="redirect-button">
+        <a href="./login"></a>
+        <span class="text"> LOGIN </span>
+    </button>
     
 </div>
+
+<br></br>
+
+<div class="button-container">
+    
+    <button type="button" class="redirect-button">
+        <a href="./createAccount"></a>
+        <span class="text"> CREATE ACCOUNT </span>
+    </button>
+    
+</div>
+
     
 </body>
 </html>
