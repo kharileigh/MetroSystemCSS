@@ -13,7 +13,7 @@
 </head>
 <body>
     
-    <!-- NAV -->
+<!-- NAV -->
 <nav class="navbar">
     <div class="container-fluid">
         <div class="button-container">
@@ -21,7 +21,7 @@
             <img alt="MetroLogo" th:src="@{/images/metro.gif}">
         </a>
         </div>
-        <h1> Login </h1>
+        <h1> Create New Account </h1>
     </div>
 </nav>
   
@@ -31,7 +31,7 @@
 <div class="main-container">
     
     <!-- NEW USER FORM -->
-    <form action="./login" method="post">
+    <form action="./newUser" method="post">
         
         <table>
             
@@ -56,6 +56,13 @@
                 </td>
             </tr>
             
+            <!-- user balance input (String value) -->
+            <tr>
+                <td>
+                    <input type="text" name="userBalance" placeholder="Your Current Balance" required />
+                </td>
+            </tr>
+            
             <!-- submit -->
             <tr>
                 <td>
@@ -67,7 +74,6 @@
         
     </form>
 </div>
-    
     
     
 </body>

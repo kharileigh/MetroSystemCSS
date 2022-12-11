@@ -4,20 +4,19 @@
     Author     : kharileigh
 */
 
-/*------- PAGE ----------*/
+
 body {
-    
-    background-color: black;
+    background-color: black; 
     overflow-x: scroll;
     overflow-y: scroll;
-    
+    font-family: monospace;
 }
 
 
 
 
 
-/*------- NAVBAR -------- */
+/*----------------- NAVBAR ---------------- */
 nav {
     display : flex;
     justify-content: center;
@@ -39,8 +38,6 @@ img {
     width : 150px;
     height : 150px;
     border-radius: 90px;
-/*    margin-right: 600px;
-    margin-left: 15px;*/
 
 }
 
@@ -49,25 +46,16 @@ img {
 
 /* headings : VIVID ORANGE */
 h1 {
-    
     color: #ff6900;
 }
 
-/* table headings : YELLOW */
-th {
-    
-    color: #fcb900;
-   
-}
-
-/* table data : GREY*/
-table {
-    
-    color : #abb8c3;
+h3 {
+    color: #fff;
+    align-self: center;
 }
 
 
-/* ----- REDIRECT BUTTON ------ */
+/* ---------------- HOMEPAGE --------------- */
 .button-container {
   display: flex;
   align-items: center;
@@ -79,6 +67,7 @@ table {
 
 .text {
     color : #fcb900;
+    text-shadow: 0 0 0.125em rgba(254, 254, 254);
 }
 
 .redirect-button {
@@ -95,7 +84,7 @@ table {
   flex-direction: row;
   flex-shrink: 0;
   font-family: monospace;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 300;
   justify-content: center;
   line-height: 24px;
@@ -189,3 +178,75 @@ table {
   opacity: .24;
 }
 
+
+/*-------------- NEW USER --------------*/
+.main-container {
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+    background-color: black;
+    opacity: 0.80;
+    width: 500px;
+    height: 550px;
+    margin: 30px auto;
+        
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    -moz-box-shadow: 0px 0px 44px 1px rgb(167, 88, 18), 0px 0px 44px 1px rgb(167, 88, 18);
+    -webkit-box-shadow: 0px 0px 44px 1px rgb(167, 88, 18), 0px 0px 44px 1px rgb(167, 88, 18);
+}
+
+table {
+    width : 100%;
+}
+
+table, tr, td {
+    padding: 8px 6px;
+}
+
+input {
+    width: 445px;
+    height: 40px;
+    color: black;
+    opacity: 0.90;
+}
+
+.form-button {
+    background-color: rgb(167, 88, 18);
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    opacity: 0.90;
+    text-align: center;
+    width: 452px;
+
+}
+
+/* table headings : YELLOW 
+th {
+    
+    color: #fcb900;
+   
+} */
+
+/* table data : GREY
+table {
+    
+    background-color: #abb8c3;
+    border-width: 40px;
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    -moz-box-shadow: 0px 0px 44px 1px rgba(18, 74, 167, 1), 0px 0px 20px 1px rgba(18, 74, 167, 1);
+    -webkit-box-shadow: 0px 0px 44px 1px rgba(18, 74, 167, 1), 0px 0px 20px 1px rgba(18, 74, 167, 1);
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+*/

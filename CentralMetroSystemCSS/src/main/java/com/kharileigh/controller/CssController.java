@@ -13,10 +13,26 @@ import org.springframework.web.servlet.ModelAndView;
 public class CssController {
     
     
-    // LANDING PAGE - Toggle Menu : Login / Create New User
+    // LANDING PAGE 
     @RequestMapping("/")
     public ModelAndView landingPageController() {
     
         return new ModelAndView("homepage");
+    }
+    
+    
+    // LOGIN PAGE 
+    @RequestMapping("/login")
+    public ModelAndView loginPageController() {
+    
+        return new ModelAndView("Login");
+    }
+    
+    
+     // CREATE ACCOUNT PAGE 
+    @RequestMapping("/newUser")
+    public ModelAndView newUserPageController() {
+    
+        return new ModelAndView("NewUser");
     }
 }
