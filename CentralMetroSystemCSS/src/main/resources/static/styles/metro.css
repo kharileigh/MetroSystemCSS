@@ -4,13 +4,48 @@
     Author     : kharileigh
 */
 
-
-/* background : BLACK */
+/*------- PAGE ----------*/
 body {
     
-    color: #000000;
+    background-color: black;
+    overflow-x: scroll;
+    overflow-y: scroll;
     
 }
+
+
+
+
+
+/*------- NAVBAR -------- */
+nav {
+    display : flex;
+    justify-content: center;
+    position: fixed;
+    padding: 200%;
+    
+}
+
+.navbar {
+    align-items: center;
+    padding: 2px;
+} 
+
+.logo {
+    align-items: center;
+}
+
+img {
+    width : 150px;
+    height : 150px;
+    border-radius: 90px;
+    margin-right: 600px;
+    margin-left: 15px;
+
+}
+
+
+
 
 /* headings : VIVID ORANGE */
 h1 {
@@ -30,3 +65,5 @@ table {
     
     color : #abb8c3;
 }
+
+

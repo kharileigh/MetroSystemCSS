@@ -17,6 +17,6 @@ public class CssController {
     @RequestMapping("/")
     public ModelAndView landingPageController() {
     
-        return new ModelAndView("index");
+        return new ModelAndView("homepage");
     }
 }
